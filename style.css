@@ -1,0 +1,132 @@
+body {
+    margin:0; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #468c4b;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+}
+
+.letter-td {
+    border: 1px solid #468c4b;
+    border-style: solid;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #468c4b;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#crossword {
+	width:423px;
+	margin: auto;
+	padding: 10px;
+    border: none;
+    border-collapse: collapse;
+}
+
+.square{
+	width:30px;
+	height:30px;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+    position: relative;
+}
+
+.empty{
+    background-color:white;
+}
+
+.letter{
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+#crossword_container{
+	float: left;
+	width:100%;
+	height: 50%;
+}
+    
+#hints_container{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.across-container, .down-container {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+#buttons_container{
+    clear: both;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.active{
+    background-color: #F5F5F5;
+}
+
+.question_number{
+    position: absolute;
+    font-size: 9px;
+    color: #468c4b;
+    left: 3px;
+    top: 3px;
+}
+
+td{
+    position:relative;
+}
+
+.letter:focus {
+    outline-width: 1px;
+    z-index: 1;
+}
+
+.letter {
+    width: 100%;
+    height: 100%;
+}
+
+.hints_title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #468c4b;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.description {
+    padding-left: 30px;
+    padding-bottom: 80px;
+    font-size: 12px;
+    max-width: 400px;
+}
+
+.description a {
+    color: #468c4b;
+}
