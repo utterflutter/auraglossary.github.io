@@ -120,6 +120,10 @@ button {
     cursor: pointer;
 }
 
+button a {
+    color: #468c4b;
+}
+
 .description {
     padding-left: 30px;
     padding-bottom: 80px;
