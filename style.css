@@ -122,6 +122,7 @@ button {
 
 button a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .description {
