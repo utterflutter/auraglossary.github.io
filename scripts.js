@@ -16,7 +16,7 @@ var grid = [	[0,	0, 0, 0, 0, '1', 0, 0, 0, 0, 0,0,0],
 var clues = ["to apportion or distribute (something) in a new or different way; to earmark or designate (something) for a new or different purpose",
              "buried erosional or non-depositional surface separating two rock masses or strata of different agesm indicating that sediment deposition was not continous",
              "a fence or other abstacle that prevents movement or access",
-             "defamilarization",
+             "defamiliarization",
              "relating to a firm, institution, or society",
              "the things and conditions around a person or thing",
              "lying dormant or hidden until circumstances are suitable for development or manifestation"
