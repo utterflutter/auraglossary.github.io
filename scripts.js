@@ -13,7 +13,7 @@ var grid = [	[0,	0, 0, 0, 0, '1', 0, 0, 0, 0, 0,0,0],
                 [0, 0, 0, 0, 0, 0, 0, '2', 0, 0, 0,0,0]
 			];
 
-var clues = ["act of setting apart for a particular purpose again",
+var clues = ["to apportion or distribute (something) in a new or different way; to earmark or designate (something) for a new or different purpose",
              "buried erosional or non-depositional surface separating two rock masses or strata of different agesm indicating that sediment deposition was not continous",
              "a fence or other abstacle that prevents movement or access",
              "defamilarization",
