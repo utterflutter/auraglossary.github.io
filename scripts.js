@@ -1,23 +1,16 @@
-var grid = [	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, 0],
-				[0, '2', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, 0],
-        ['3','2,3','3','3','3','3','3','3','3','3','3','3','3','3'],
-        [0, '2', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, '4', 0, 0, 0, '5', 0, 0, '6', '6','6','6','6','6,1','6','6','6','6',],
-        [0, '2', 0, '4', 0, 0, 0, '5', 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, '4', 0, 0, 0, '5', 0, 0, '7', 0, 0, '8', 0, '1', 0, 0, 0, 0],
-        ['9', '2,9', '9', '9,4', '9', '9', '9', '9,5', '9', 0, '7', 0, 0, '8', 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, '4', 0, 0, 0, '5', 0, 0, '7', 0, 0, '8', 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, '4', 0, 0, 0, '5', 0, 0, '7', 0, 0, '8', 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, '10', '10', '10', '10', '10,5', '10', '10', '10,7', '10', '10', '10,8', '10', '10,1', '10', 0, 0, 0],
-        [0, '2', 0, 0, 0, 0, 0, '5', 0, 0, '7', 0, 0, '8', 0, '1', 0, 0, 0, 0],
-        [0, '2', 0, 0, 0, 0, 0, '5', 0, 0, '7', 0, 0, '8', 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, '11', '11', '11', '11', '11,5', 0, 0, '7', 0, '12', '12,8', '12', '12', '12', '12,13', '12', '12'],
-        [0, 0, 0, 0, 0, 0, 0, '5', 0, 0, 0, 0, 0, '8', 0, 0, 0, '13', 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, '14', '14', '14', '14', '14', '8,14', '14', 0, 0, '13', 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '8', 0, 0, 0, '13', 0, 0],
-        [0, 0, 0, 0, '15', '15', '15', '15', '15', '15', '15', '15', '15', '8,15', '15', '15', 0, '13', 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '13', 0, 0],
-
+var grid = [	[0,	0, 0, 0, 0, '1', 0, 0, 0, 0, 0,0,0],
+				[0, 0, 0, 0, 0, '1', 0, '2', 0, '3', 0,0,0],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, '3', 0,0,'5'],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, '3', 0,0,'5'],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, '3', 0,0,'5'],
+				[0, '6', '6', '6,4', '6', '6,1', '6', '6,2', '6', '6,3', '6','6','6,5'],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, '3', 0,0,'5'],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, '3', 0,0,0],
+				['7', '7', '7', '7,4', '7', '7,1', 0, '2', 0, '3', 0,0,0],
+				[0, 0, 0, '4', 0, '1', 0, '2', 0, 0, 0,0,0],
+                [0, 0, 0, '4', 0, '1', 0, '2', 0, 0, 0,0,0],
+                [0, 0, 0, '4', 0, '1', 0, '2', 0, 0, 0,0,0],
+                [0, 0, 0, 0, 0, 0, 0, '2', 0, 0, 0,0,0]
 			];
 
 var clues = ["to apportion or distribute (something) in a new or different way; to earmark or designate (something) for a new or different purpose",
@@ -26,33 +19,16 @@ var clues = ["to apportion or distribute (something) in a new or different way; 
              "defamiliarization",
              "relating to a firm, institution, or society",
              "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
              "lying dormant or hidden until circumstances are suitable for development or manifestation"
             ];
 
-var answers = ["unconformity",
-              "serendipity",
-              "VERISIMILITUDE",
-              "affect",
-              "uncontested",
-              "ostranenie",
-              "barriers",
-              "reallocation",
-              "DIMENSION",
-              "ACCESSIBILITY",
+var answers = ["reallocation",
+             "unconformity",
+             "barriers",
+             "ostranenie",
              "house",
-             "PARALLAX",
-             "latent",
-             "KINSHIP",
-             "surroundings"
-             
+             "surroundings",
+             "latent"
             ];
 
 //Draw grid
@@ -247,34 +223,3 @@ function showClue(question_number,i,j){
         $("#crossword tr:nth-child("+(j+1)+") td:nth-child("+(i+1)+") div").text(answer_letters[j - startpos[1]]).css("color","#468c4b");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
