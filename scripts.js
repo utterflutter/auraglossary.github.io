@@ -20,37 +20,39 @@ var grid = [	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '1', 0, 0, 0, 0],
 
 			];
 
-var clues = ["to apportion or distribute (something) in a new or different way; to earmark or designate (something) for a new or different purpose",
-             "buried erosional or non-depositional surface separating two rock masses or strata of different agesm indicating that sediment deposition was not continous",
-             "a fence or other abstacle that prevents movement or access",
+var clues = ["buried erosional or non-depositional surface separating two rock masses or strata of different agesm indicating that sediment deposition was not continous",
+              "the occurrence and development of events by chance in a happy or beneficial way",
+             "the appearance of being true or real",
+             "make a difference to; touch the feelings of",
+             "not disputed or challenged",
              "defamiliarization",
+             "a fence or other abstacle that prevents movement or access",
+             "act of setting apart for a particular purpose again",
+             "form or shape (something) to particular measurement",
+             "the quality of being able to be reached or entered, to obtain or use, understood or appreciated",
+
              "relating to a firm, institution, or society",
              "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "the things and conditions around a person or thing",
-             "lying dormant or hidden until circumstances are suitable for development or manifestation"
+             "the effect whereby the position or direction of an object appears to differ when viewed from different positions",
+             "lying dormant or hidden until circumstances are suitable for development or manifestation",
+             "a sharing of characteristics or origins",
+             "the things and conditions around a person or thing, umwelt"
             ];
 
 var answers = ["unconformity",
               "serendipity",
-              "VERISIMILITUDE",
+              "verisimilitude",
               "affect",
               "uncontested",
               "ostranenie",
               "barriers",
               "reallocation",
-              "DIMENSION",
-              "ACCESSIBILITY",
+              "dimension",
+              "accessibility",
              "house",
-             "PARALLAX",
+             "parallex",
              "latent",
-             "KINSHIP",
+             "kinship",
              "surroundings"
              
             ];
