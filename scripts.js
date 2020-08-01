@@ -32,7 +32,6 @@ var clues = ["buried erosional or non-depositional surface separating two rock m
              "the quality of being able to be reached or entered, to obtain or use, understood or appreciated",
 
              "relating to a firm, institution, or society",
-             "the things and conditions around a person or thing",
              "the effect whereby the position or direction of an object appears to differ when viewed from different positions",
              "lying dormant or hidden until circumstances are suitable for development or manifestation",
              "a sharing of characteristics or origins",
