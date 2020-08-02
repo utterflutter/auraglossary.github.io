@@ -39,11 +39,10 @@ var clues = ["buried erosional or non-depositional surface separating two rock m
              "the things and conditions around a person or thing, umwelt"
             ];
 
-var answers = ["unconformity",
+var answers = [ "unconformity",
               "serendipity",
               "verisimilitude",
-              "affect",
-              "UNCONTESTED",
+              "affect", "UNCONTESTED",
               "ostranenie",
               "barriers",
               "reallocation",
