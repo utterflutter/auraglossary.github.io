@@ -43,7 +43,7 @@ var answers = ["unconformity",
               "serendipity",
               "verisimilitude",
               "affect",
-              "xxxxxxxxxxx",
+              
               "ostranenie",
               "barriers",
               "reallocation",
